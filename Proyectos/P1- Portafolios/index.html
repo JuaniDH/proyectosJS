@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Righteous&display=swap" rel="stylesheet">
+    <title>PortFolio</title>
+</head>
+<body>
+    <header>
+        <nav class="navHeader">
+            <h1>JUANI</h1>
+            <article>
+                <a href="#sobremi">SOBRE MI</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#portfolio">PORTFOLIO</a>
+                <a href="#contacto">CONTACTO</a>
+            </article>
+        </nav>
+    </header>
+    <main>
+        <section class="banner" id="sobremi">
+            <article>
+                <h2>Juan Ignacio Aguero</h2>
+                <h3>Desarrollador web <span>Front-end</span></h3>
+                <p>
+                    Hola, soy Juani, un desarrollador de software con experiencia en el área de front-end. Vivo en la provincia de Córdoba y actualmente estoy finalizando mis estudios formales. Además de mi formación académica, he realizado cursos especializados en tecnologías como JavaScript y React JS.
+                    
+                    Soy un entusiasta y disfruto especialmente del desarrollo de sitios web, siempre buscando ser creativo en mis proyectos. Me esfuerzo por ofrecer la mejor calidad y perfeccionismo en mi trabajo. Me encanta aprender y estoy constantemente buscando nuevos conocimientos para integrar en mis proyectos.
+                    
+                    Tengo habilidades destacadas para trabajar en equipo y me adapto fácilmente a los cambios del entorno, ya que los considero una oportunidad de aprendizaje. Soy autodidacta, dedicado, y amo lo que hago. Mi objetivo es crecer y destacarme como desarrollador.
+                    
+                    Además, cuento con una amplia variedad de proyectos que puedo mostrarte. Si estás interesado, ¡solo tenés que seguir desplazándote hacia abajo! ¡Espero poder compartirte más información!
+                </p>
+            </article>
+        </section>
+        <section class="skills" id="skills">
+            <img src="images/tools.png" alt="imagen ilustrativa">
+            <article class="skillsType">
+                    <h3><span>Technical</span> Skills</h3>
+                    <div>
+                        <img src="images/html.png" alt="logo html">
+                        <h4><span>HTML </span>- maquetación semántica / conocimientos sólidos y amplios</h4>
+                    </div>
+                    <div>
+                        <img src="images/css.png" alt="logo css">
+                        <h4><span>CSS </span>- responsive design / conocimientos sólidos y amplios</h4>
+                    </div>
+                    <div>
+                        <img src="images/js.png" alt="logo js">
+                        <h4><span>JavaScript </span>- bases sólidas</h4>
+                    </div>
+                    <div>
+                        <img src="images/react.png" alt="logo react">
+                        <h4><span>React JS </span>- en proceso</h4>
+                    </div>
+                    <h3><span>Soft</span> Skills</h3>
+                    <h4><span>T</span>rabajo en equipo efectivo</h4>
+                    <h4><span>C</span>omunicación efectiva</h4>
+                    <h4><span>A</span>daptacion al entorno efectiva</h4>
+                    <h4><span>R</span>esolución de conflictos efectiva</h4>
+                    <h4><span>D</span>esenvolvimiento personal efectivo</h4>
+            </article>
+        </section>
+        <section class="portFolio" id="portfolio">
+            <h3>Mis <span>proyectos</span></h3>
+            <article class="tarjetas">
+                <div>
+                    <img src="images/colors.jpg">
+                    <h4>Project 1</h4>
+                    <p>Text text text Text text text Text text text</p>
+                </div>
+                <div>
+                    <img src="images/colors.jpg">
+                    <h4>Project 2</h4>
+                    <p>Text text text Text text text Text text text</p>
+                </div>
+                <div>
+                    <img src="images/colors.jpg">
+                    <h4>Project 3</h4>
+                    <p>Text text text Text text text Text text text</p>
+                </div>
+            </article>
+        </section>
+        <section class="contact" id="contacto">
+            <h3>Contactame <span>acá!</span></h3>
+            <article class="forms">
+                <form id="formulario" action="procesar_forms.php" method="POST">
+                    <div>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Contame quién sos!" required>                      
+                    </div>
+                    <div>
+                        <label for="numero">Número de teléfono:</label>
+                        <input type="number" name="numero" id="numero" placeholder="Ingresá tu número acá." required>
+                    </div>
+                    <div>
+                        <label for="correo">Correo electrónico:</label>
+                        <input type="email" name="correo" id="correo" placeholder="Ingresá tu correo acá." required>
+                    </div>
+                    <div>
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" name="asunto" id="asunto" placeholder="¿Sobre qué es tu consulta?" required>
+                    </div>
+                    <div>
+                        <label for="mensaje">Mensaje:</label>
+                        <input type="text" name="mensaje" id="mensaje" placeholder="Dejame tu mensaje acá!" required>
+                    </div>
+                    <button type="submit" id="enviar" class="opacidad" disabled>Enviar mensaje</button>
+                    <button type="reset" id="resetear">Resetear datos</button>
+                </form>
+                <img src="images/call-me.png">
+            </article>
+            <article class="infoPersonalDeContacto">
+                <div>
+                    <h3>Mi <span>información</span></h3>
+                    <h4>+54 3468415439</h4>
+                    <h4>juaniaguerodh@gmail.com</h4>
+                    <h4>Arias, Córdoba, Argentina.</h4>
+                </div>
+            </article>
+            <nav class="navInferior">
+                <a href="https://www.instagram.com/juaniaguero6/?hl=es-la" target="_blank"><img src="images/instagram.png" alt="logo instagram"></a>
+                <a href="https://www.linkedin.com/in/juan-ignacio-aguero-996452262/" target="_blank"><img src="images/linked.png" alt="logo linkedin"></a>
+                <a href="https://github.com/JuaniDH" target="_blank"><img src="images/git.png" alt="logo github"></a>
+            </nav>
+        </section>
+    </main>
+    <footer>
+        <a href="#sobremi">Inicio</a>
+        <p>Juan Ignacio Aguero - Professional Web Developer ~</p>
+    </footer>
+    <script src="JS/script.js"></script>
+    <script src="JS/server.js"></script>
+</body>
+</html>
